@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://github.com/roremdev/rick-morty/javascript">
-        <img src="https://img.shields.io/badge/JavaScript-0.1.0-green?style=for-the-badge&logo=JavaScript" alt="JavaScript" />
+        <img src="https://img.shields.io/badge/JavaScript-0.3.0-green?style=for-the-badge&logo=JavaScript" alt="JavaScript" />
     </a>
     <a href="https://github.com/roremdev/rick-morty/react">
         <img src="https://img.shields.io/badge/React-gray?style=for-the-badge&logo=React" alt="React" />

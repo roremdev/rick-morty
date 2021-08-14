@@ -1,15 +1,15 @@
 {
     "name": "rick-morty-vanilla",
     "author": "@roremDev",
-    "version": "0.1.0",
+    "version": "0.3.0",
     "description": "A little spa app built with JavaScript Vanilla",
     "main": "main.js",
     "scripts": {
         "postinstall": "cd .. && npx husky install && npx husky add .husky/prepare-commit-msg 'npx --no-install devmoji -e'",
-        "dev": "vite",
+        "start": "vite serve src",
         "build": "vite build",
-        "serve": "vite preview",
-        "storybook": "start-storybook -p 6006",
+        "dev": "vite preview",
+        "storybook": "start-storybook -p 6006 -c src/.storybook",
         "build-storybook": "build-storybook"
     },
     "repository": {
@@ -32,12 +32,13 @@
         "@storybook/addon-links": "^6.4.0-alpha.29",
         "@storybook/addon-postcss": "^2.0.0",
         "@storybook/html": "^6.4.0-alpha.29",
+        "autoprefixer": "^10.3.1",
         "babel-loader": "^8.2.2",
         "postcss": "^8.3.6",
-        "postcss-nested": "^5.0.6",
         "storybook-builder-vite": "^0.0.12",
         "stylelint": "^13.13.1",
         "stylelint-config-standard": "^22.0.0",
+        "tailwindcss": "^2.2.7",
         "vite": "^2.4.4"
     }
 }
